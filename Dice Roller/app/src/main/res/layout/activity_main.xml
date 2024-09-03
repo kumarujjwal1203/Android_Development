@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+
+
+<ImageView
+    android:id="@+id/Diceroller"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:src="@drawable/dice_1"
+    />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/Roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Roll"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        />
+
+
+
+
+</LinearLayout>
